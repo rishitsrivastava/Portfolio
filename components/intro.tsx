@@ -32,7 +32,8 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://media.istockphoto.com/id/1152537185/photo/hacker-working-on-laptop-in-the-dark.webp?b=1&s=170667a&w=0&k=20&c=7CsF-7sV3FGOJgef6HpoZXBHenPLxZAbgZaITWXmUoU="
+              src="/../public/IMG_20240113_142918.jpg"
+              // https://media.istockphoto.com/id/1152537185/photo/hacker-working-on-laptop-in-the-dark.webp?b=1&s=170667a&w=0&k=20&c=7CsF-7sV3FGOJgef6HpoZXBHenPLxZAbgZaITWXmUoU=
               alt="Rishit portrait"
               width="192"
               height="192"
@@ -68,7 +69,7 @@ export default function Intro() {
         <span className="italic">web applications</span>. My main focus is {" "}
         <span className="underline">React</span>. I bring{" "}
         <span className="itailc">fresh perspectives</span> and {" "}
-        <span className="italic">hunder to learn.</span>
+        <span className="italic">hunger to learn.</span>
         
       </motion.h1>
  
