@@ -33,7 +33,7 @@ export default function Intro() {
           >
             <Image
               src="https://media.istockphoto.com/id/1152537185/photo/hacker-working-on-laptop-in-the-dark.webp?b=1&s=170667a&w=0&k=20&c=7CsF-7sV3FGOJgef6HpoZXBHenPLxZAbgZaITWXmUoU="
-              alt="Ricardo portrait"
+              alt="Rishit portrait"
               width="192"
               height="192"
               quality="95"
