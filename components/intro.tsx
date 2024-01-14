@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import my_image from "@/public/IMG_20240113_142918.jpg"
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -32,7 +33,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/../public/IMG_20240113_142918.jpg"
+              src={my_image}
               // https://media.istockphoto.com/id/1152537185/photo/hacker-working-on-laptop-in-the-dark.webp?b=1&s=170667a&w=0&k=20&c=7CsF-7sV3FGOJgef6HpoZXBHenPLxZAbgZaITWXmUoU=
               alt="Rishit portrait"
               width="192"
