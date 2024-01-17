@@ -2,28 +2,18 @@
 
 import Image from "next/image";
 import my_image from "@/public/IMG_20240113_142918.jpg"
-import React, { useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
-import { useInView } from "react-intersection-observer";
-import { useActiveSectionContext } from "@/context/active-section-context";
+import { useSectionInView } from "@/lib/hooks"
 
 export default function Intro() {
   
-  const { ref, inView } = useInView({
-    threshold: 0.5
-});
-const { setActiveSection } = useActiveSectionContext();
-
-useEffect(() => {
-    if(inView) {
-    setActiveSection("Home");
-    }
-}, [inView, setActiveSection]);
+  const { ref } = useSectionInView('Home', 0.5);
 
   return (
     <section
@@ -43,7 +33,6 @@ useEffect(() => {
           >
             <Image
               src={my_image}
-              // https://media.istockphoto.com/id/1152537185/photo/hacker-working-on-laptop-in-the-dark.webp?b=1&s=170667a&w=0&k=20&c=7CsF-7sV3FGOJgef6HpoZXBHenPLxZAbgZaITWXmUoU=
               alt="Rishit portrait"
               width="192"
               height="192"
@@ -128,13 +117,13 @@ useEffect(() => {
           <FaGithubSquare />
         </a>
 
-        {/* <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60"
-          href=""
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10"
+          href="https://twitter.com/rishit1618"
           target="_blank"
         >
           <BsTwitter />
-        </a> */}
+        </a>
       </motion.div>
     </section>
   );
