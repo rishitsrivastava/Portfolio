@@ -21,12 +21,12 @@ export default function About() {
         <p className='mb-3'>
             During graduation my interest in programming was developed out of pure curiosity and also because of my peers.
             This kick-started my exploration in this field and eventually led me to dive deep into frontend development, especially React.
-            Although I stated with Angular but as I realised the market trend was supporting React to a whole other level, therefore i too started exploring the <span className="font-medium">React.js</span> library/framework.
+            Although I started with Angular but as I realised the market trend was supporting React to a whole other level, therefore i too started exploring the <span className="font-medium">React.js</span> library/framework.
             I had developed couple of cool and dynamic applications, refining my skills and developin a genuine passion for coding.
         </p>
 
         <p>
-          Gradually, I transitioned from a frontend developer to a full-stack enthusiast, exploring the parts of the MERN stack [MongoDB, Express.js, React, Node.js].
+          Gradually, I transitioned from a frontend developer to a full-stack enthusiast, exploring the MERN stack [MongoDB, Express.js, React, Node.js].
         </p>
            
         <p>
@@ -39,7 +39,7 @@ export default function About() {
         </p>
 
         <p>
-          Currently, I'm exploring the world of <span className="font-medium">Next.js</span> and also diving deeper into <span className='font-medium'>javascript and typescript</span>. This alligns perfectly with my commintment to continuous learning and
+          Currently, I'm exploring the world of <span className="font-medium">Next.js</span> and also diving deeper into <span className='font-medium'>javascript and typescript</span>. This alligns perfectly with my commitment to continuous learning and
           keeping myself up-to-date in the ever evloving programming landscape.
         </p>
     </motion.section>
