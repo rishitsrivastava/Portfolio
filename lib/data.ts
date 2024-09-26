@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import angularP from "@/public/angular_project.jpg";
 import hoobankLanding from "@/public/hoobank_landing.png";
 import travelW from "@/public/Screenshot (106).png"
+import mediumlike from "@/public/Screenshot (153).png"
 
 export const links = [
   {
@@ -46,6 +47,12 @@ export const links = [
 // ] as const;
 
 export const projectsData = [
+  {
+    title: "MediumLike",
+    description: "A full stack blogging MERN app, integrated with a rich text editor and authentication",
+    tags: ["React", "Tailwind CSS", "NodeJS", "Express.js", "Cloudflare workers", "Prisma"],
+    imageUrl: mediumlike
+  },
   {
     title: "Hoobank",
     description:
